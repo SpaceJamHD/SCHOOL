@@ -71,6 +71,17 @@ section {
   background-color: var(--white);
   color: var(--black);
 }
+
+.heading {
+  margin-bottom: 2.5rem;
+  text-align: center;
+  font-size: 4rem;
+  color: var(--white);
+}
+
+.heading span {
+  color: var(--green);
+}
 /* HEADER */
 .header {
   position: fixed;
@@ -218,7 +229,44 @@ section {
 
 /* COURSES */
 
+.courses .slide {
+  background-color: var(--light-bg);
+  border-radius: 0.5rem;
+  text-align: center;
+  padding: 2rem;
+  margin-bottom: 4rem;
+}
+
+.courses .slide img {
+  height: 35rem;
+  width: 100%;
+}
+
+.courses .slide h3 {
+  margin: 1.5rem 0;
+  font-size: 2rem;
+  color: var(--white);
+}
+
+.courses .slide p {
+  line-height: 2;
+  font-size: 1.6rem;
+  color: var(--light-white);
+}
+
+.swiper-pagination-bullet {
+  background-color: var(--white);
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--green);
+}
+
 /* COURSES END */
+
+/* TEACHERS */
+
+/* TEACHERS END */
 
 #menu-btn {
   cursor: pointer;
